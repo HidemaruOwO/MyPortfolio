@@ -1,0 +1,30 @@
+---
+const { title, description, ogimage, dir } = Astro.props;
+---
+
+<html lang="ja">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="generator" content={Astro.generator} />
+    <meta name="description" content={description} />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/material-design-iconic-font/2.2.0/css/material-design-iconic-font.min.css"
+    />
+    <title>{title}</title>
+    <meta property="og:url" content={"https://hide0.net" + dir} />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content={"https://hide0.net" + ogimage} />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@Hidemaru_OwO" />
+  </head>
+  <body>
+    <div>
+      <slot />
+    </div>
+  </body>
+</html>

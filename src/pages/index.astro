@@ -1,0 +1,14 @@
+---
+import Layout from "../components/Layout.astro";
+import Index from "../components/Index";
+import "../styles/global.css";
+---
+
+<Layout
+  title="ひでまるのポートフォリオ"
+  description="うんこ"
+  ogimage="/image/top_ogp.png"
+  dir="/"
+>
+  <Index client:only="react" />
+</Layout>
