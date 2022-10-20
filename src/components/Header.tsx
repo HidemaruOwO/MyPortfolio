@@ -9,7 +9,7 @@ export default () => {
           <nav>かわいいポートフォリオ</nav>
         </h3>
 
-        <h1 className="mt-2 sm:mt-14 mx-14 text-3xl sm:text-7xl font-round-bold">
+        <h1 className="mt-2 sm:mt-14 mx-14 text-3xl sm:text-6xl md:text-7xl font-round-bold">
           <nav>ひでまるの</nav>
           <nav>　 ポートフォリオ</nav>
         </h1>
