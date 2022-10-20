@@ -2,4 +2,99 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: roundedMedium;
+  src: url("/font/rounded-mplus-1m-medium.ttf");
+}
+
+@font-face {
+  font-family: roundedBold;
+  src: url("/font/rounded-mplus-1m-bold.ttf");
+}
+
+.bg-purple-mine {
+  --tw-bg-opacity: 1;
+  background-color: rgb(81 79 129 / var(--tw-bg-opacity));
+}
+
+.text-purple-mine {
+  --tw-text-opacity: 1;
+  color: rgb(81 79 129 / var(--tw-text-opacity));
+}
+
+.font-round-bold {
+  font-family: roundedBold;
+}
+
+.font-round-medium {
+  font-family: roundedMedium;
+}
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: inherit;
+  box-sizing: inherit;
+}
+
+html {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  font-size: 100%;}
+
+.btn,
+a.btn,
+button.btn {
+  font-size: 1rem;
+  line-height: 1.5;
+  position: relative;
+  display: inline-block;
+  padding: 1rem 3rem;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  text-align: center;
+  vertical-align: middle;
+  text-decoration: none;
+  letter-spacing: 0.1em;
+  color: #212529;
+  border-radius: 0.5rem;
+}
+
+.btn-border {
+  border-radius: 0;
+}
+
+.btn-border:before,
+.btn-border:after {
+  position: absolute;
+
+  width: 100%;
+  height: 2px;
+
+  content: '';
+  -webkit-transition: all .3s;
+  transition: all .3s;
+
+  background: #000;
+}
+
+.btn-border:before {
+  top: 0;
+  left: 0;
+}
+
+.btn-border:after {
+  right: 0;
+  bottom: 0;
+}
+
+.btn-border:hover:before,
+.btn-border:hover:after {
+  width: 0;
+}
 
