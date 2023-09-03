@@ -4,13 +4,13 @@
 
 @font-face {
   font-family: roundedMedium;
-  font-display: auto;
+  font-display: swap;
   src: url("/font/rouned-mplus-1m-medium.subset.woff2") format("woff2");
 }
 
 @font-face {
   font-family: roundedBold;
-  font-display: auto;
+  font-display: swap;
   src: url("/font/rounded-mplus-1m-bold.subset.woff2") format("woff2");
 }
 
