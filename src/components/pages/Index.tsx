@@ -22,6 +22,7 @@ export default () => {
           </Col>
           <Col>
             <img
+              loading="lazy"
               height="200"
               width="200"
               src="/image/square_slime.png"
