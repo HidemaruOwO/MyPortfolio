@@ -1,5 +1,5 @@
 import react from "react";
-import Header from "./Header";
+import Header from "../Header";
 import { Row, Col } from "react-bootstrap";
 
 export default () => {
