@@ -12,7 +12,13 @@ import sitemap from "@astrojs/sitemap";
 // https://astro.build/config
 
 // https://astro.build/config
+import compress from "astro-compress";
+
+// https://astro.build/config
+import relativeLinks from "astro-relative-links";
+
+// https://astro.build/config
 export default defineConfig({
   site: "https://hide0.net",
-  integrations: [react(), tailwind(), sitemap()]
+  integrations: [react(), tailwind(), sitemap(), compress(), relativeLinks()]
 });
