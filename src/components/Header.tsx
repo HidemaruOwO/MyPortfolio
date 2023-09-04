@@ -14,7 +14,7 @@ export default () => {
           <nav>　 ポートフォリオ</nav>
         </h1>
         <a
-          className="btn btn-border font-round-bold mt-4 sm:mt-12 mx-24 sm:mx-12"
+          className="btn btn-border font-round-bold text-base sm:text-hxs mt-4 sm:mt-12 mx-24 sm:mx-12"
           href="/#introduction"
         >
           自己紹介
